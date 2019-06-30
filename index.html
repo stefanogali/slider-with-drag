@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Carousel</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="js/script.js"></script>
+		<script>
+			$( document ).ready(function() {
+				var obj = new ClsProviderSlider({ divCont:'.inner-cont', innerDiv:'.inner-box'});
+				obj.init();
+			});
+		</script>
+	</head>
+	<body>
+		<div class = "container">
+			<div class = "inner-cont">
+				<div class="inner-box"><img src="image/concrete5.jpg" /></div> 
+				<div class="inner-box"><img src="image/drupal.jpg" /></div> 
+				<div class="inner-box"><img src="image/joomla.jpg" /></div> 
+				<div class="inner-box"><img src="image/magento.jpg" /></div> 
+				<div class="inner-box"><img src="image/prestashop.jpg" /></div> 
+				<div class="inner-box"><img src="image/shopify.jpg" /></div> 
+				<div class="inner-box"><img src="image/sitefinity.jpg" /></div> 
+				<div class="inner-box"><img src="image/wordpress.jpg" /></div> 
+			</div>
+		</div>
+	</body>
+</html>
